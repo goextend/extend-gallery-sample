@@ -1,0 +1,28 @@
+{
+  "name": "gallery-sample",
+  "version": "1.0.0",
+  "description": "DX portal",
+  "private": true,
+  "scripts": {
+    "start": "nps -s develop.start"
+  },
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ],
+  "keywords": [
+    "extend",
+    "gallery",
+    "samples"
+  ],
+  "author": "javier.centurion@auth0.com",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "nps": "^5.9.3"
+  }
+}

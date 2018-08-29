@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "global-require": "off",
+    "react/jsx-filename-extension": "off",
+    "import/prefer-default-export": "off",
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "arrow-parens": "off",
+    "react/prop-types": "off",
+    "react/destructuring-assignment": "off"
+  },
+  "globals": {
+    "document": true
+  }
+}
